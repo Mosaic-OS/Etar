@@ -43,9 +43,9 @@ import com.android.calendar.CalendarController;
 import com.android.calendar.CalendarController.EventType;
 import com.android.calendar.CalendarEventModel;
 import com.android.calendar.Utils;
+import com.android.calendar.calendarcommon2.Time;
 import com.android.calendar.settings.GeneralPreferences;
 import com.android.calendar.settings.SettingsActivity;
-import com.android.calendar.calendarcommon2.Time;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.text.ParseException;

@@ -28,7 +28,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.provider.ContactsContract;
 import android.provider.ContactsContract.Directory;
-import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.text.util.Rfc822Token;
 import android.util.Log;
@@ -38,6 +37,8 @@ import android.widget.AutoCompleteTextView;
 import android.widget.BaseAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
+
+import androidx.annotation.Nullable;
 
 import com.android.calendar.chips.ChipsUtil.PermissionsCheckListener;
 import com.android.calendar.chips.DropdownChipLayouter.AdapterType;

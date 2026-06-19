@@ -34,7 +34,6 @@ import com.android.calendar.colorpicker.ColorPickerSwatch.OnColorSelectedListene
 import com.android.calendar.colorpicker.HsvColorComparator
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import ws.xsoh.etar.R
-import java.util.ArrayList
 import java.util.Arrays
 
 

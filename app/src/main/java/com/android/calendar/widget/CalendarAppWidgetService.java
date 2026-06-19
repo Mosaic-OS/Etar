@@ -41,11 +41,11 @@ import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
 import com.android.calendar.Utils;
+import com.android.calendar.calendarcommon2.Time;
 import com.android.calendar.theme.DynamicThemeKt;
 import com.android.calendar.widget.CalendarAppWidgetModel.DayInfo;
 import com.android.calendar.widget.CalendarAppWidgetModel.EventInfo;
 import com.android.calendar.widget.CalendarAppWidgetModel.RowInfo;
-import com.android.calendar.calendarcommon2.Time;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

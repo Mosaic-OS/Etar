@@ -3,8 +3,8 @@ package com.android.calendar.event;
 import android.content.ContentResolver;
 import android.net.Uri;
 import android.provider.CalendarContract;
-import android.provider.CalendarContract.ExtendedProperties;
 import android.provider.CalendarContract.Calendars;
+import android.provider.CalendarContract.ExtendedProperties;
 
 public class ExtendedProperty {
     /**

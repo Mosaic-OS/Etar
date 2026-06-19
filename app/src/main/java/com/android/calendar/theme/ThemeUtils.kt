@@ -4,7 +4,6 @@ import android.content.Context
 import android.os.Build
 import com.android.calendar.Utils
 import com.android.calendar.theme.model.Theme
-import kotlin.text.lowercase
 
 object ThemeUtils {
 

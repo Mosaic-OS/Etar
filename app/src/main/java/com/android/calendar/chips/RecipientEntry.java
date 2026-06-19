@@ -19,9 +19,10 @@ package com.android.calendar.chips;
 import android.net.Uri;
 import android.provider.ContactsContract.CommonDataKinds.Email;
 import android.provider.ContactsContract.DisplayNameSources;
-import androidx.annotation.DrawableRes;
 import android.text.util.Rfc822Token;
 import android.text.util.Rfc822Tokenizer;
+
+import androidx.annotation.DrawableRes;
 
 /**
  * Represents one entry inside recipient auto-complete list.

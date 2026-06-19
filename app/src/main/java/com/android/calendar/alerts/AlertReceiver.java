@@ -46,17 +46,19 @@ import android.text.style.TextAppearanceSpan;
 import android.text.style.URLSpan;
 import android.util.Log;
 import android.widget.Toast;
+
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.android.calendar.theme.DynamicThemeKt;
 import com.android.calendar.EventInfoActivity;
 import com.android.calendar.Utils;
 import com.android.calendar.alerts.AlertService.NotificationWrapper;
+import com.android.calendar.theme.DynamicThemeKt;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
+
 import ws.xsoh.etar.R;
 
 /**

@@ -16,9 +16,6 @@
 
 package com.android.calendar;
 
-import com.android.calendar.CalendarUtils.TimeZoneUtils;
-import com.android.calendar.calendarcommon2.Time;
-
 import android.content.res.Configuration;
 import android.database.MatrixCursor;
 import android.provider.CalendarContract.CalendarCache;
@@ -26,10 +23,14 @@ import android.test.mock.MockResources;
 import android.test.suitebuilder.annotation.SmallTest;
 import android.test.suitebuilder.annotation.Smoke;
 import android.util.DisplayMetrics;
-import java.util.HashMap;
-import java.util.Locale;
+
+import com.android.calendar.CalendarUtils.TimeZoneUtils;
+import com.android.calendar.calendarcommon2.Time;
 
 import junit.framework.TestCase;
+
+import java.util.HashMap;
+import java.util.Locale;
 
 import ws.xsoh.etar.R;
 

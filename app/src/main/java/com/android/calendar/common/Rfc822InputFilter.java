@@ -17,8 +17,8 @@
 package com.android.calendar.common;
 
 import android.text.InputFilter;
-import android.text.Spanned;
 import android.text.SpannableStringBuilder;
+import android.text.Spanned;
 
 /**
  * Implements special address cleanup rules:

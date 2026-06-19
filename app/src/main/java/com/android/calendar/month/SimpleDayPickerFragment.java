@@ -36,9 +36,9 @@ import android.widget.TextView;
 
 import androidx.fragment.app.ListFragment;
 
-import com.android.calendar.theme.DynamicThemeKt;
 import com.android.calendar.Utils;
 import com.android.calendar.calendarcommon2.Time;
+import com.android.calendar.theme.DynamicThemeKt;
 
 import java.util.Calendar;
 import java.util.HashMap;

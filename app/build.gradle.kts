@@ -67,27 +67,28 @@ android {
 	val signingKeyAlias: String? by project
 	val signingKeyPassword: String? by project
 
-	if (
-		signingStoreLocation != null &&
-		signingStorePassword != null &&
-		signingKeyAlias != null &&
-		signingKeyPassword != null
-	) {
-		println("Found sign properties in gradle.properties! Signing build…")
+    if (
+        signingStoreLocation != null &&
+        signingStorePassword != null &&
+        signingKeyAlias != null &&
+        signingKeyPassword != null
+    ) {
 
-		signingConfigs {
-			named("release").configure {
-				storeFile = File(signingStoreLocation!!)
-				storePassword = signingStorePassword
-				keyAlias = signingKeyAlias
-				keyPassword = signingKeyPassword
-			}
-		}
+        val releaseSigningConfig = signingConfigs.findByName("release") ?: signingConfigs.create("release")
 
-		buildTypes.named("release").get().signingConfig = signingConfigs.named("release").get()
-	} else {
-		buildTypes.named("release").get().signingConfig = null
-	}
+        releaseSigningConfig.storeFile = File(signingStoreLocation)
+        releaseSigningConfig.storePassword = signingStorePassword
+        releaseSigningConfig.keyAlias = signingKeyAlias
+        releaseSigningConfig.keyPassword = signingKeyPassword
+
+        buildTypes.named("release").configure {
+            signingConfig = releaseSigningConfig
+        }
+    } else {
+        buildTypes.named("release").configure {
+            signingConfig = null
+        }
+    }
 
 	lint {
 		lintConfig = file("lint.xml")

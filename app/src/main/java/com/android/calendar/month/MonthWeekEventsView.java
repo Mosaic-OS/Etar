@@ -48,8 +48,8 @@ import androidx.core.content.ContextCompat;
 import com.android.calendar.Event;
 import com.android.calendar.LunarUtils;
 import com.android.calendar.Utils;
-import com.android.calendar.settings.ViewDetailsPreferences;
 import com.android.calendar.calendarcommon2.Time;
+import com.android.calendar.settings.ViewDetailsPreferences;
 import com.android.calendar.theme.DynamicThemeKt;
 
 import java.util.ArrayList;

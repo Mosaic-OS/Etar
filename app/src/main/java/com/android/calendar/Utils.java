@@ -62,9 +62,9 @@ import androidx.core.graphics.ColorUtils;
 import com.android.calendar.CalendarController.ViewType;
 import com.android.calendar.CalendarEventModel.ReminderEntry;
 import com.android.calendar.CalendarUtils.TimeZoneUtils;
+import com.android.calendar.calendarcommon2.Time;
 import com.android.calendar.settings.GeneralPreferences;
 import com.android.calendar.widget.CalendarAppWidgetProvider;
-import com.android.calendar.calendarcommon2.Time;
 
 import java.util.ArrayList;
 import java.util.Arrays;

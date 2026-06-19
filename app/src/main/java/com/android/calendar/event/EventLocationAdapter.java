@@ -40,7 +40,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.calendar.Utils;
-
 import com.google.android.material.imageview.ShapeableImageView;
 
 import java.io.InputStream;

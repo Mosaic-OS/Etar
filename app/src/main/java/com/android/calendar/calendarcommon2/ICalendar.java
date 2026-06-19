@@ -18,11 +18,11 @@ package com.android.calendar.calendarcommon2;
 
 import android.util.Log;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-import java.util.ArrayList;
 
 /**
  * Parses RFC 2445 iCalendar objects.

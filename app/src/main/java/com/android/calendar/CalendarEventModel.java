@@ -28,11 +28,11 @@ import android.text.util.Rfc822Token;
 
 import androidx.annotation.Nullable;
 
+import com.android.calendar.common.Rfc822Validator;
 import com.android.calendar.event.EditEventHelper;
 import com.android.calendar.event.EventColorCache;
 import com.android.calendar.event.ExtendedProperty;
 import com.android.calendar.settings.GeneralPreferences;
-import com.android.calendar.common.Rfc822Validator;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -16,9 +16,9 @@
 
 package com.android.calendar.chips.recipientchip;
 
-import com.android.calendar.chips.RecipientEntry;
-
 import android.text.TextUtils;
+
+import com.android.calendar.chips.RecipientEntry;
 
 class SimpleRecipientChip implements BaseRecipientChip {
     private final CharSequence mDisplay;

@@ -49,11 +49,11 @@ import com.android.calendar.CalendarController;
 import com.android.calendar.CalendarController.EventInfo;
 import com.android.calendar.CalendarController.EventType;
 import com.android.calendar.CalendarController.ViewType;
-import com.android.calendar.theme.DynamicThemeKt;
 import com.android.calendar.Event;
 import com.android.calendar.Utils;
-import com.android.calendar.event.CreateEventDialogFragment;
 import com.android.calendar.calendarcommon2.Time;
+import com.android.calendar.event.CreateEventDialogFragment;
+import com.android.calendar.theme.DynamicThemeKt;
 
 import java.util.ArrayList;
 import java.util.Calendar;

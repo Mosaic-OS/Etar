@@ -27,10 +27,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.android.calendar.theme.DynamicThemeKt;
 import com.android.calendar.Utils;
 import com.android.calendar.agenda.AgendaWindowAdapter.DayAdapterInfo;
 import com.android.calendar.calendarcommon2.Time;
+import com.android.calendar.theme.DynamicThemeKt;
 
 import java.util.ArrayList;
 import java.util.Formatter;

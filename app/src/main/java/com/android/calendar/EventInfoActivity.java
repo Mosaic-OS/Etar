@@ -35,9 +35,9 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.android.calendar.CalendarEventModel.ReminderEntry;
+import com.android.calendar.alerts.AlertUtils;
 import com.android.calendar.theme.DynamicThemeKt;
 
-import com.android.calendar.alerts.AlertUtils;
 import java.util.ArrayList;
 import java.util.List;
 

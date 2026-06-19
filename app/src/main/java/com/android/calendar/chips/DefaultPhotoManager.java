@@ -21,8 +21,9 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.provider.ContactsContract;
-import androidx.collection.LruCache;
 import android.util.Log;
+
+import androidx.collection.LruCache;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

@@ -17,8 +17,6 @@
 package com.android.calendar;
 
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 
 import java.util.HashMap;
 import java.util.Map;

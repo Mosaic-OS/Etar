@@ -24,7 +24,7 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceScreen
 import com.android.calendar.Utils
 import ws.xsoh.etar.R
-import java.util.*
+import java.util.Arrays
 
 /**
  * Fragment to facilitate editing of quick responses when emailing guests

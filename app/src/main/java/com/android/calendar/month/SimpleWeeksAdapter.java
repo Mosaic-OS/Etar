@@ -27,8 +27,6 @@ import android.widget.AbsListView.LayoutParams;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-// TODO Remove calendar imports when the required methods have been
-// refactored into the public api
 import com.android.calendar.CalendarController;
 import com.android.calendar.Utils;
 import com.android.calendar.calendarcommon2.Time;

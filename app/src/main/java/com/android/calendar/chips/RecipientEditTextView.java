@@ -47,9 +47,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.os.Parcelable;
-import androidx.annotation.NonNull;
-import androidx.core.content.ContextCompat;
-
 import android.text.Editable;
 import android.text.InputType;
 import android.text.Layout;
@@ -86,12 +83,13 @@ import android.widget.Filterable;
 import android.widget.ListAdapter;
 import android.widget.ListPopupWindow;
 import android.widget.ListView;
-import androidx.appcompat.widget.AppCompatMultiAutoCompleteTextView;
 import android.widget.PopupWindow;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AppCompatMultiAutoCompleteTextView;
+import androidx.core.content.ContextCompat;
 
 import com.android.calendar.chips.DropdownChipLayouter.PermissionRequestDismissedListener;
 import com.android.calendar.chips.RecipientAlternatesAdapter.RecipientMatchCallback;
@@ -99,6 +97,7 @@ import com.android.calendar.chips.recipientchip.DrawableRecipientChip;
 import com.android.calendar.chips.recipientchip.InvisibleRecipientChip;
 import com.android.calendar.chips.recipientchip.ReplacementDrawableSpan;
 import com.android.calendar.chips.recipientchip.VisibleRecipientChip;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.ArrayList;
 import java.util.Arrays;

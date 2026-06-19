@@ -19,6 +19,7 @@ package com.android.calendar.chips;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+
 import androidx.annotation.Nullable;
 
 public class ChipsUtil {

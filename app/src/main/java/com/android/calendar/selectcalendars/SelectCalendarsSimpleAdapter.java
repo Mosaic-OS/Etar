@@ -34,9 +34,9 @@ import android.widget.TextView;
 import androidx.fragment.app.FragmentManager;
 
 import com.android.calendar.CalendarColorPickerDialog;
-import com.android.calendar.theme.DynamicThemeKt;
 import com.android.calendar.Utils;
 import com.android.calendar.selectcalendars.CalendarColorCache.OnCalendarColorsLoadedListener;
+import com.android.calendar.theme.DynamicThemeKt;
 
 import ws.xsoh.etar.R;
 

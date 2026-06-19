@@ -79,8 +79,8 @@ import androidx.core.content.res.ResourcesCompat;
 
 import com.android.calendar.CalendarController.EventType;
 import com.android.calendar.CalendarController.ViewType;
-import com.android.calendar.settings.GeneralPreferences;
 import com.android.calendar.calendarcommon2.Time;
+import com.android.calendar.settings.GeneralPreferences;
 import com.android.calendar.theme.DynamicThemeKt;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 

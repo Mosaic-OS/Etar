@@ -32,9 +32,9 @@ import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
 
 import com.android.calendar.ColorChipView;
-import com.android.calendar.theme.DynamicThemeKt;
 import com.android.calendar.Utils;
 import com.android.calendar.calendarcommon2.Time;
+import com.android.calendar.theme.DynamicThemeKt;
 
 import java.util.Formatter;
 import java.util.Locale;

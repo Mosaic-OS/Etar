@@ -39,13 +39,12 @@ import android.provider.CalendarContract.Events;
 import android.util.Log;
 import android.util.Pair;
 
+import com.android.calendar.calendarcommon2.Time;
 import com.android.calendar.event.EditEventActivity;
 import com.android.calendar.settings.GeneralPreferences;
 import com.android.calendar.settings.SettingsActivity;
-import com.android.calendar.calendarcommon2.Time;
 
 import java.lang.ref.WeakReference;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.Map.Entry;

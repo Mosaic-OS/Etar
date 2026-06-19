@@ -43,8 +43,8 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
 import com.android.calendar.Utils;
-import com.android.calendar.settings.GeneralPreferences;
 import com.android.calendar.calendarcommon2.Time;
+import com.android.calendar.settings.GeneralPreferences;
 
 import java.util.ArrayList;
 import java.util.HashMap;

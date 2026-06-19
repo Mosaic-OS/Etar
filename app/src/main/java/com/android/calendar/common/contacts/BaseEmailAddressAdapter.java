@@ -16,8 +16,6 @@
 
 package com.android.calendar.common.contacts;
 
-import com.android.calendar.common.widget.CompositeCursorAdapter;
-
 import android.accounts.Account;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -39,6 +37,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.Filterable;
+
+import com.android.calendar.common.widget.CompositeCursorAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
